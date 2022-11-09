@@ -61,13 +61,32 @@ p {
    width: 25%;
    float: left;
    margin-right: 30px;
- 
 }
 .second-skill {
     width: 25%;
     float: right;
     margin-left: 30px;
 }
+.Hacktober {
+width: 30%;
+float: left;
+margin-right: 30px;
+
+}
+
+.HackerRank {
+  width: 30%;
+  float: right;
+  margin-left: 10px;
+
+}
+
+.meta {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
 .skill-row {
 width: 50%;
 margin: 100px auto;
@@ -135,6 +154,30 @@ hr {
     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
     text-decoration: none;
   }
+
+  .carousel-inner > .carousel-item > img { 
+    width:640px; 
+    height:360px; 
+   margin: auto;
+  }
+
+  .carousel-control-prev-icon {
+    position: absolute;
+    left: 300px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKNCD8X4TuAVQ-5kSKKEOQTh35p3p5bAjLHQ&usqp=CAU") !important;
+}
+
+.carousel-control-next-icon {
+  position: absolute;
+  right: 300px;
+  background-image: url("https://www.kindpng.com/picc/m/241-2410378_black-left-right-symbol-arrow-cartoon-shapes-right.png")!important;
+}
+
+.gap {
+  height: 50px;
+}
+
+ 
   .contact-me-p {
     width: 30%;
     margin: auto auto 70px;
